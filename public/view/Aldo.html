@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        .contenedor{
+            background: #b3c8f7;
+            margin: 0 auto;
+            margin-left:25%;
+            margin-right:25%;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .data{
+            padding: 2px;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1><center>Hola mundo</center></h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nulla earum necessitatibus nisi hic natus sapiente neque unde? Obcaecati quaerat praesentium error, velit recusandae ipsa numquam eius odio tempore nostrum.</p>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam libero aliquid, iure sapiente obcaecati sint nihil, iste fuga itaque voluptates. Consequuntur incidunt labore, quaerat quia officiis nesciunt eveniet consectetur cupiditate?</div>
-    <br>
-    <button>INSERT</button>
+    <h1>LOGIN</h1>
+    <div class="contenedor">
+       <form action="Aldo2.html" method="get">
+       <h3 style="text-align:center;">Ingrese sus datos de usuario</h3>
+       <div>
+           <!--<label for="Usuario">USUARIO</label>-->
+           <input type="text" name="Usuario" placeholder="Ingrese Usuario">
+       </div>
+       <div>
+           <!--<label for="Clave">CLAVE</label>-->
+           <input type="password" name="Clave" placeholder="Ingrese Clave">
+       </div>
+       <div>
+           <input type="submit" value="Ingresar">
+       </div>
+       </form>
+    </div>
 </body>
 </html>
