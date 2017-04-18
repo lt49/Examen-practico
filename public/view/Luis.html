@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        .contenedor{
+            background: #ededed;
+            margin: 0 auto;
+            margin-left: 30%;
+            margin-right: 30%;
+            padding-top: 1px;
+            padding-bottom: 20px;
+            padding-left: 35px;
+            padding-right: 35px;
+            font-family: Arial, Helvetica, Verdana;
+        }
+
+        .data{
+            padding: 2px;
+            width: 100%;
+            font-size: 15px;
+        }
+
+        .cajas{
+            padding: 5px;
+        }
+
+        .btn{
+            background: #097e09;
+            color: #c9bebe;
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .btn:hover{
+            background: #08a308;
+            color: #dedede;
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Holaa</h1>
+    <h1>Login</h1>
+    <div class="contenedor">
+          <h3 style="text-align:center;">Ingrese sus credenciales</h3>
+       <hr>
+        <form action="Luis2.html" method="POST">
+            <div class="cajas">
+                <!--<label for="usuario">Usuario</label>-->
+                <input type="text" class="data" name="usuario" placeholder="Usuario">
+            </div>
+            <div class="cajas">
+                <!--<label for="clave">Clave</label>-->
+                <input type="password" class="data" name="clave" placeholder="Clave">
+            </div>
+            <div class="cajas">
+                <input type="submit" class="btn" value="Ingresar">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
