@@ -4,24 +4,86 @@
     <meta charset="UTF-8">
     <title>Document</title>
 
-    <!--hola  soy alex-->
-    <!--  -->
-    <p> hola  todos
+    <style>
 
-    </p>
+        .contenedor{
+            background: #f0d3d3;
+            margin: 0 auto;
+            margin-left:30%;
+            margin-right:30%;
+            padding-top:1px;
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, tenetur iure, ex nisi, dolores alias ullam cum culpa illum eaque exercitationem. Mollitia earum cumque porro cupiditate ex at architecto nam!</p>
+            padding-bottom: 20px;
+            padding-left: 35px;
+            padding-right: 20px;
+
+/*
+            padding-left: 40px,
+*/
+        }
+
+        .data{
+
+            padding:2px;
+            width: 100%;
+        }
+
+        .cajas{
+            padding: 5px;
+        }
+        .btn{
+            background:#12982b;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .btn:hover{
+            background:#2cea09;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+    </style>
 
 
-    <div>
-
-        <p>  hola toy en viando algo </p>
-    </div>
-
-
-    <p>     seguimos enviando</p>
 </head>
 <body>
+
+<h1>Login</h1>
+
+<div  class="contenedor">
+  <h3 style="text-align:center;">ingrese sus credenciales</h3>
+
+   <hr>
+    <form action="Alex1.html" method="get">
+
+        <div class="data">
+            <!--<label for="Usuarios">Usuario</label>-->
+            <input type="text" name="Usuario" placeholder="Usuario" class="data">
+
+        </div>
+        <div class="data">
+            <!--<label for="clave">Password</label>-->
+            <input type="password" name="clave" placeholder="Clave" class="data">
+
+        </div>
+
+
+        <div class="cajas">
+
+            <input type="submit" value="Ingresar" class="btn">
+        </div>
+    </form>
+</div>
+
 
 </body>
 </html>
